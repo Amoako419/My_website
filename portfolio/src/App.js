@@ -1,10 +1,11 @@
 import './App.css';
+import Nav from './pages/nav';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <h1>Work to begin soon</h1>
+      <Nav/>
       </header>
     </div>
   );
