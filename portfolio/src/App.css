@@ -63,9 +63,17 @@
 
 .list li {
   margin-right: 1rem;
+  font-weight: bold;
 }
 
 .list li a {
   color: #fff;
   text-decoration: none;
+}
+.Contact{
+  display: flex;
+
+}
+.Contact a {
+  padding: 20px;
 }
