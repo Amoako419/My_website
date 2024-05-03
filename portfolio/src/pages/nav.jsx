@@ -1,5 +1,9 @@
 import React from "react";
 import '../App.css';
+import '../App.js';
+import '../index.js';
+import { Link } from 'react-router-dom';
+
 
 function Nav(){
     return(
@@ -12,10 +16,12 @@ function Nav(){
               </div>
         <div className="list">
             <ul>
-                <li>Home</li>
-                <li>About</li>
+               <Link to ="/"> <li>Home</li></Link>
+               <Link to ="/about"> <li>About</li></Link>
+               <Link to ="/projects"> <li>Projects</li></Link>
+               
                 {/* <li>Research</li> */}
-                <li>Projects</li>
+                {/* <li>Projects</li> */}
             </ul>
         </div>
         </div>
