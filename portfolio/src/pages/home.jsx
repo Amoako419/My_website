@@ -1,8 +1,9 @@
+import React from "react";
 import './App.css';
 import Hero from './pages/hero';
 import Nav from './pages/nav';
 
-function App() {
+function Home() {
   return (
     <main>
     <switch>
@@ -17,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

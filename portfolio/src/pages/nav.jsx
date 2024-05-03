@@ -14,7 +14,7 @@ function Nav(){
             <ul>
                 <li>Home</li>
                 <li>About</li>
-                <li>Research</li>
+                {/* <li>Research</li> */}
                 <li>Projects</li>
             </ul>
         </div>
