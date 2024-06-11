@@ -7,12 +7,25 @@ import {
 } from "react-router-dom"
 import "./index.css";
 import App from './App';
+import ErrorPage from './pages/errorpage';
+import About from './pages/about';
+import Projects from './pages/projects';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <App />,
+        errorElement: <ErrorPage />,
     },
+    {
+        path:'about',
+        element: <About />,
+    },
+    {
+        path:'projects',
+        element: <Projects />,
+    }
+   
 ])
 
 
