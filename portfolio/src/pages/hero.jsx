@@ -9,7 +9,7 @@ function Hero(){
         <p>Crafting intelligent systems from the ground up: Designing Machine Learning architectures and models,
             building robust backend infrastructure, and shaping elegant user experiences across web and mobile applications.</p>
 
-        <p>I code for fun.</p>
+        <p>“The people who are crazy enough to think they can change the world are the ones who do.”.</p>
             
             <h3>Reach out to me </h3>
             <div className="Contact">
