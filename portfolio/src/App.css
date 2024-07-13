@@ -7,6 +7,24 @@
   font-weight: 400;
   font-style: normal;
 }
+.about {
+  background-color: white;
+  margin-left: 50;
+  padding: 50px;
+  padding-left: 70px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.projects {
+  background-color: white;
+  margin-left: 50;
+  padding: 50px;
+  padding-left: 70px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* .App-header {
   background-color: #ffffff;
@@ -19,9 +37,9 @@
   color: rgb(0, 0, 0);
 } */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -59,6 +77,7 @@
 .list ul {
   display: flex;
   list-style-type: none;
+  color: #000;
 }
 
 .list li {
@@ -69,6 +88,7 @@
 .list li {
   color: #fff;
   text-decoration: none;
+  color: #000;
 }
 .hero{
   padding-top: 70px;
@@ -93,6 +113,9 @@
 }
 .Contact a {
   padding: 20px;
+}
+.nav li ul link{
+  color: #000;
 }
 
 @media (max-width: 768px) {
