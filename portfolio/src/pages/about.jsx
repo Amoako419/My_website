@@ -10,7 +10,9 @@ function About(){
         
         <div className="about">
         <Nav />
-        <h2>This is an about page</h2>
+        <h2>Fordjour Heskey Amoako</h2>
+
+        <img src="" alt="" srcset="" />
         </div>
     );
 }
